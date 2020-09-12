@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Navbar = () => (
   <Nav>
     <Container>
-      <H1>GrocerBox Admin </H1>
+      <H1>Just Shopified</H1>
       <ul>
         <Li>
           Log Out{' '}
