@@ -1,14 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-// components
-import Section1 from './components/Section1'
-import Navbar from './components/common/Navbar'
+import Content from './components/Content';
+const App = () => <Content />;
 
-const App = () => (
-  <>
-    <Navbar />
-    <Section1 />
-  </>
-)
-
-export default App
+export default App;
