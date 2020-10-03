@@ -13,7 +13,7 @@ const UlComponent = () => {
 
 const Ul = styled.ul`
   display: flex;
-  align-items: right;
+  padding-left: auto;
 `;
 
 const Li = styled.li`

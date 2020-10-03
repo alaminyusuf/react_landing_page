@@ -13,8 +13,8 @@ const Wrapper = styled.div`
   display: flex;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
     sans-serif;
-  margin: 0em auto;
   background-color: #757575;
+  justify-content: space-between;
   /* color: #ffc400; */
   color: #fff;
 `;

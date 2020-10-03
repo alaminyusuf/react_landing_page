@@ -5,24 +5,13 @@ import UlComponent from './Ul';
 
 const Header = () => (
   <>
-    <TextWrapper>
-      <H1>Web Devs</H1>
-    </TextWrapper>
-    <UlWrapper>
-      <UlComponent />
-    </UlWrapper>
+    <H1>Web Devs</H1>
+    <UlComponent />
   </>
 );
 
-const TextWrapper = styled.div`
-  flex-basis: 50%;
-`;
-
-const UlWrapper = styled.div`
-  flex-basis: 50%;
-`;
-
 const H1 = styled.h1`
+  flex-basis: 50;
   font-size: 25px;
   padding: 0.5em;
 `;
