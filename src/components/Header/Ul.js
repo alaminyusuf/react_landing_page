@@ -18,8 +18,8 @@ const Ul = styled.ul`
 
 const Li = styled.li`
   display: flex;
-  padding: 0.8em 1em;
-  font-size: 18px;
+  padding: 1.4em 0.5em 1em 0.5em;
+  font-size: 14px;
 `;
 
 export default UlComponent;
