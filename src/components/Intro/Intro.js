@@ -1,18 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// components
+import LeftPane from './LeftPane';
+import RightPane from './RightPane';
+
 const Intro = () => (
-  <>
-    <Header>breath life into your ideas</Header>
-  </>
+  <FlexWrapper>
+    <LeftPane />
+    <RightPane />
+  </FlexWrapper>
 );
 
-const Header = styled.div`
-  font-size: 30px;
-  margin: 2em;
-  text-transform: capitalize;
-  color: #fff;
-  z-index: 5 !important;
+const FlexWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 auto; */
+  margin: 2.5em;
 `;
 
 export default Intro;

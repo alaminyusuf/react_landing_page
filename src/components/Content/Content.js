@@ -25,6 +25,7 @@ const Container = styled.div`
   background-position: top center;
   width: 100%;
   color: #ffc400;
+  z-index: -1;
   &:before {
     position: absolute;
     top: 0;
