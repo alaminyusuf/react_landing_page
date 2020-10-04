@@ -14,6 +14,7 @@ const UlComponent = () => {
 const Ul = styled.ul`
   display: flex;
   padding-left: auto;
+  z-index: 2;
 `;
 
 const Li = styled.li`

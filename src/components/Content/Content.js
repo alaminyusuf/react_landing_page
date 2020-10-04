@@ -5,12 +5,14 @@ import styled from 'styled-components';
 import Img from '../../img/idea_bulb.jpg';
 
 import Header from '../Header';
+import Intro from '../Intro';
 
 const Content = () => (
-  <Container style={{ backgroundImage: `url(${Img})` }}>
-    <Wrapper>
+  <Container style={{ backgroundImage: `url(${Img}` }}>
+    <FlexWrapper>
       <Header />
-    </Wrapper>
+    </FlexWrapper>
+    <Intro />
   </Container>
 );
 
@@ -18,31 +20,28 @@ const Container = styled.div`
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
     sans-serif;
   height: 100vh;
-  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   width: 100%;
   color: #ffc400;
-  &:after {
+  &:before {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     content: '';
-    /* opacity: 0.72; */
     background: rgba(0, 0, 0, 0.35);
     height: 100%;
   }
 `;
 
-const Wrapper = styled.div`
+const FlexWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   max-width: 90%;
   margin: 0 auto;
-  z-index: 10;
 `;
 
 export default Content;

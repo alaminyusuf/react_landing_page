@@ -14,6 +14,7 @@ const H1 = styled.h1`
   flex-basis: 50;
   font-size: 25px;
   padding: 0.5em;
+  z-index: 2;
 `;
 
 export default Header;
